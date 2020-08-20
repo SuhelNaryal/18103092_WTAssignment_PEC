@@ -1,5 +1,5 @@
 # 18103092_WTAssignment_PEC
-This repositiory contains Web Tech course's lab assignments.
+This repositiory contains Web Tech course's lab assignments.\n
 Student details:
 Name: Suhel Naryal
 SID: 18103092
