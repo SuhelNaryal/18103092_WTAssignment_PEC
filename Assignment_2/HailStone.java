@@ -6,6 +6,9 @@
 package Assignment2;
 
 import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Arrays;
+
 
 /**
  *
@@ -22,7 +25,7 @@ public class HailStone {
             list.add(n);
             n = (n%2 == 0)? n/2: n*3+1;
         }
-        
+        list.add(1);
         return list.toArray(new Integer[list.size()]);
     }
 
@@ -36,7 +39,7 @@ public class HailStone {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.print("Hailstone sequence for " + n +": ");
-        System.out.println(Arrays.toString((new HailStone).hailstone(n)));
+        System.out.println(Arrays.toString((new HailStone()).hailstone(n)));
     }
     
 }
