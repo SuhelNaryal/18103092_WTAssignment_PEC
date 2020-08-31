@@ -31,6 +31,12 @@ public class HailStone {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Programe to print Hailstone Sequence");
+        System.out.print("Enter a number: ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.print("Hailstone sequence for " + n +": ");
+        System.out.println(Arrays.toString((new HailStone).hailstone(n)));
     }
     
 }
