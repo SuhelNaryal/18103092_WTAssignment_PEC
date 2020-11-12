@@ -34,16 +34,16 @@ public class MaxDivisors extends Thread
     }
     public static void main(String[] args)
     {
-        MaxDivisors thread1 = new ans2(1);
-        MaxDivisors thread2 = new ans2(10001);
-        MaxDivisors thread3 = new ans2(20001);
-        MaxDivisors thread4 = new ans2(30001);
-        MaxDivisors thread5 = new ans2(40001);
-        MaxDivisors thread6 = new ans2(50001);
-        MaxDivisors thread7 = new ans2(60001);
-        MaxDivisors thread8 = new ans2(70001);
-        MaxDivisors thread9 = new ans2(80001);
-        MaxDivisors thread10 = new ans2(90001);
+        MaxDivisors thread1 = new MaxDivisors(1);
+        MaxDivisors thread2 = new MaxDivisors(10001);
+        MaxDivisors thread3 = new MaxDivisors(20001);
+        MaxDivisors thread4 = new MaxDivisors(30001);
+        MaxDivisors thread5 = new MaxDivisors(40001);
+        MaxDivisors thread6 = new MaxDivisors(50001);
+        MaxDivisors thread7 = new MaxDivisors(60001);
+        MaxDivisors thread8 = new MaxDivisors(70001);
+        MaxDivisors thread9 = new MaxDivisors(80001);
+        MaxDivisors thread10 = new MaxDivisors(90001);
         long startingTime = System.currentTimeMillis();
         thread1.start();
         thread2.start();
