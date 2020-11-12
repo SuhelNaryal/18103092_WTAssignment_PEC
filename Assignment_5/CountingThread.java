@@ -12,7 +12,7 @@ public class CountingThread extends Thread
                 Thread.sleep(1000);
                 if(i%10==0)
                 {
-                	System.out.println("String printed after every ten number counting.");
+                	System.out.println("Bharat Mata ki Jai!");
                 }
             }
             catch(Exception e)
